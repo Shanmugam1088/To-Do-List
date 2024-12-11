@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("pic.webp");
+    background-size: cover; 
+    float: left;
+    margin: 50px;
+    padding: 0;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #cdeff0;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(14, 11, 11, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(70, 43, 226);
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #1f0909;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #23b61d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dbd7d7;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f1ecec;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
